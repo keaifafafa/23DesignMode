@@ -21,6 +21,9 @@ public abstract class AbstractHouse {
      */
     public abstract void roofed();
 
+    /**
+     * 创建
+     */
     public void build() {
         buildBasic();
         buildWalls();

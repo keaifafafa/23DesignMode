@@ -19,6 +19,7 @@ public class HouseDirector {
     }
 
     public House constructHouse() {
+        // 执行顺序可以由指挥者决定
         houseBuilder.buildBasic();
         houseBuilder.buildWalls();
         houseBuilder.roofed();
