@@ -17,8 +17,8 @@ public class DispatchServlet {
 
 		// 此处模拟SpringMVC从request取handler的对象，
 		// 适配器可以获取到希望的Controller
-		 HttpController controller = new HttpController();
-		// AnnotationController controller = new AnnotationController();
+//		 HttpController controller = new HttpController();
+		 AnnotationController controller = new AnnotationController();
 		//SimpleController controller = new SimpleController();
 		// 得到对应适配器
 		HandlerAdapter adapter = getHandler(controller);

@@ -24,9 +24,13 @@ class SimpleHandlerAdapter implements HandlerAdapter {
 class HttpHandlerAdapter implements HandlerAdapter {
 
 	public void handle(Object handler) {
+		// 依赖关系【因为用到了对方】
 		((HttpController) handler).doHttpHandler();
 	}
 
+	/**
+	 * 判断是否是目标类型
+	 */
 	public boolean supports(Object handler) {
 		return (handler instanceof HttpController);
 	}
