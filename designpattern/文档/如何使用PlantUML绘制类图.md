@@ -4,7 +4,7 @@
 
 ## 一、首先下载插件PlantUML
 
- File-> Settings->Plugins![image-20220316210902886](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220316210912.png)
+ File-> Settings->Plugins![image-20220316210902886](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220316210912.png)
 
 下载安装完，重启编译器即可！！！
 
@@ -12,9 +12,9 @@
 
 > 创建类图
 
- ![image-20220316211057269](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220316211057.png)
+ ![image-20220316211057269](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220316211057.png)
 
- ![image-20220316211126608](https://gitee.com/lovely-hair/blog-img/raw/master/img/20220316211126.png)
+ ![image-20220316211126608](https://fafa-blog-img.oss-cn-beijing.aliyuncs.com/images/img/20220316211126.png)
 
 
 

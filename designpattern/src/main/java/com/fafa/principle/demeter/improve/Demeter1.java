@@ -78,9 +78,9 @@ class CollegeManager {
     }
 }
 
-//学校管理类
-//分析 SchoolManager 类的直接朋友类有哪些 Employee、CollegeManager
-//CollegeEmployee 不是 直接朋友 而是一个陌生类，这样违背了 迪米特法则
+// 学校管理类
+// 分析 SchoolManager 类的直接朋友类有哪些 Employee、CollegeManager
+// CollegeEmployee 不是 直接朋友 而是一个陌生类，这样违背了 迪米特法则
 class SchoolManager {
     // 返回学校总部的员工
     public List<Employee> getAllEmployee() {

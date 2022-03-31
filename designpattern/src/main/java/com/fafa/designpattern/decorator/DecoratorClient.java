@@ -16,7 +16,7 @@ public class DecoratorClient {
     public static void main(String[] args) {
         Person person = new Person("可爱发");
         System.out.println("第一种装扮");
-        // 装饰对象
+        // 装饰对象【这里使用递归实现的】
         Sneakers sneakers = new Sneakers();
         BigTrouser bigTrouser = new BigTrouser();
         TShirts tShirts = new TShirts();
